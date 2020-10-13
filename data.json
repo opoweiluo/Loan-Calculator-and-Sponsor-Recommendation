@@ -1,0 +1,56 @@
+[
+  {
+    "name":"American Lending, Inc.",
+    "zipcode":"92626",
+    "rate":"4",
+    "website":"http://americanlendinginc.com/"
+  },
+  {
+    "name":"American Pacific Mortgage Corporation",
+    "zipcode":"95661",
+    "rate":"4",
+    "website":"https://www.apmortgage.com/"
+  },
+  {
+    "name":"AmWest Funding Corp.",
+    "zipcode":"90242",
+    "rate":"2",
+    "website":"https://www.amwestfunding.com/"
+  },
+  {
+    "name":"Banc of California",
+    "zipcode":"91910",
+    "rate":"4",
+    "website":"https://bancofcal.com/"
+  },
+  {
+    "name":"Bay Equity, LLC",
+    "zipcode":"94965",
+    "rate":"5",
+    "website":"https://www.bayequityhomeloans.com/"
+  },
+  {
+    "name":"Broadview Mortgage Corporation",
+    "zipcode":"92868",
+    "rate":"3",
+    "website":"https://www.broadviewhl.com/"
+  },
+  {
+    "name":"Broker Solutions, Inc.",
+    "zipcode":"92780",
+    "rate":"4",
+    "website":"https://www.newamericanfunding.com/"
+  },
+  {
+    "name":"Calcon Mutual Mortgage, LLC",
+    "zipcode":"92108",
+    "rate":"3",
+    "website":"https://onetrusthomeloans.com/"
+  },
+  {
+    "name":"California Housing Finance Agency",
+    "zipcode":"95814",
+    "rate":"5",
+    "website":"https://www.calhfa.ca.gov/"
+  }
+]

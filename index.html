@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Loan Calculator </title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="styleSheet.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+   
+</head>
+<body>
+<h1>Loan Calculator</h1>
+<table>
+  	<tr>
+		<th>Enter Loan Data:</th>		
+	</tr>
+	<tr>
+		<td>Amount of the loan ($):</td>
+		<td><input id="amount"></td>
+		<td rowspan=8><canvas id="testing" width="500" height="250"></canvas></td>
+	</tr>
+	<tr>
+		<td>Annual interest (%):</td>
+		<td><input id="apr" ></td>
+	</tr>
+	<tr>
+		<td>Repayment period (years):</td>
+		  <td><input id="years"></td>
+	</tr>
+	<tr>
+		<td>Zipcode (to find lenders):</td>
+		<td><input id="zipcode" ></td>
+	</tr>
+	<tr>
+		<th></th>
+		<td><button onclick="calculate();">Calculate</button><button onclick="reset();">Reset</button></td>
+	</tr>
+	<tr>
+		<th>Approximate Payments:</th>
+	</tr>
+	<tr>
+		<td>Monthly payment:</td>
+		<td>$<span class="output" id="payment"></span></td>
+	</tr>
+	<tr>
+		<td>Total payment:</td>
+		<td>$<span class="output" id="total"></span></td>
+	</tr>
+	<tr>
+		<td>Total interest:</td>
+		<td>$<span class="output" id="totalinterest"></span></td>
+	</tr>
+	<tr>
+		<th>Sponsors:</th>
+		<td colspan=2>Apply for your loan with one of these fine lenders: (Click the link to lender's website!)<div id="lenders"></div></td>
+	</tr>
+	</table>
+	<script src="script.js"></script>
+</body>
+</html>
+    

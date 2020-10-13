@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#graph {
+  border:solid black 1px;
+}
+
+th, td {
+  vertical-align: top;
+  padding: 10px;
+}
+th{
+  font-style: italic;
+  color: rgb(13, 9, 223);
+}
+
+h1{
+  font-variant: small-caps;
+  padding: 5px;
+}
+
+table{
+  background-color: lightgray;
+}
+
+#lenders li a{
+  color: rgb(21, 160, 130);
+  font-size: .9em;
+}
+
+
+
